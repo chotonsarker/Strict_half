@@ -1,0 +1,326 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul li{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    font-family: 'Lato', sans-serif;
+} */    
+header{
+    width: 100;
+    background-color: #f6f9f9;
+    /* margin: auto; */
+    padding: 20px 0;
+}
+header .header_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+display: block;
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+
+/* display: flex; */
+}
+nav ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-size: 16px;
+
+font-weight: 700;
+
+color: #2d3950;
+
+font-family: 'Lato', sans-serif;
+}
+.banner{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center;
+    position: relative;
+}
+.banner_content{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner_content h1{
+
+font-size: 120px;
+
+color: #ffffff;
+
+font-weight: 700;
+
+/* font-family: 'Lato'; */
+
+font-family: 'Lato', sans-serif;
+
+text-transform: uppercase;
+
+/* padding-bottom: 1px; */
+}
+.banner_content p{
+
+font-size: 16px;
+
+color: #ffffff;
+
+padding-bottom: 60px;
+
+font-weight: 400;
+
+font-family: 'Lato';
+
+padding-top: 20px;
+}
+.banner_content span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #15a4fa;
+    line-height: 100px;}
+.banner_content a{
+
+border: 1px solid #15a4fa;
+
+text-decoration: none;
+
+padding: 10px 20px;
+
+color: #ffffff;
+
+font-weight: 400;
+
+font-family: 'Lato';
+transition: .5s all ease-in-out;
+border-radius: 5px;
+
+}
+.banner_content a:hover{
+    background-color: #15a4fa;
+}
+.content{
+padding: 70px 0;
+
+background-color: #f6f9f9;
+}
+.heading{
+
+margin: auto;
+
+text-align: center;
+
+width: 80%;
+}
+.heading h1{
+
+color: #2d3950;
+
+font-size: 40px;
+
+font-family: 'Lato';
+
+font-weight: 400;
+
+padding-bottom: 15px;
+}
+.heading p{
+    
+color: #999999;
+    
+font-size: 20px;
+    
+font-family: 'Lato';
+    
+font-weight: 400;
+}
+.feature_section{
+
+margin: 70px 0;
+
+/* text-align: center; */
+}
+.feature_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.feature{
+
+width: 30%;
+
+text-align: center;
+}
+.icon{
+
+height: 60px;
+
+width: 60px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,48baff+50,5fc3ff+50,5fc3ff+100 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+font-size: 25px;
+
+margin: auto;
+
+color: #fff;
+}
+.feature h1{
+
+margin: 15px 0;
+
+color: #2d3950;
+
+font-size: 22px;
+
+font-weight: 400;
+
+font-family: 'Lato';
+}
+.feature p{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.main{
+
+background-color: #f6f9f9;
+
+padding-top: 40px;
+
+padding: 70px 0;
+}
+.main h1{
+
+color: #2d3950;
+
+font-size: 41px;
+
+text-align: center;
+
+font-family: 'Lato';
+
+font-weight: 400;
+
+margin-bottom: 15px;
+}
+.main p{
+
+/* color: #2d3950; */
+
+text-align: center;
+
+color: #909090;
+
+font-size: 17px;
+
+font-weight: 400;
+
+font-family: 'Lato';
+
+margin-bottom: 80px;
+}
+.container{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+.image{
+    width: 32%;
+    margin-top: 20px;
+    position: relative;
+}
+.image::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #15a4fa;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.image:hover::after{
+    opacity: .5;
+}
+.image img{
+    
+width: 100%;
+}
+.choto{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 85%;
+    }
+}
